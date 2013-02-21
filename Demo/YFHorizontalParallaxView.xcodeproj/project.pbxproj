@@ -18,10 +18,10 @@
 		75A160B416D606FF00840755 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A160B316D606FF00840755 /* Default-568h@2x.png */; };
 		75A160B716D606FF00840755 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A160B616D606FF00840755 /* ViewController.m */; };
 		75A160BA16D606FF00840755 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A160B816D606FF00840755 /* ViewController.xib */; };
-		75A160C216D607B100840755 /* YFHorizontalParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A160C116D607B100840755 /* YFHorizontalParallaxView.m */; };
 		75A160C716D6083500840755 /* pic1.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A160C416D6083500840755 /* pic1.png */; };
 		75A160C816D6083500840755 /* pic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A160C516D6083500840755 /* pic2.png */; };
 		75A160C916D6083500840755 /* pic3.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A160C616D6083500840755 /* pic3.png */; };
+		75A160CC16D6211100840755 /* YFHorizontalParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A160CB16D6211100840755 /* YFHorizontalParallaxView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,11 +41,11 @@
 		75A160B516D606FF00840755 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		75A160B616D606FF00840755 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		75A160B916D606FF00840755 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		75A160C016D607B100840755 /* YFHorizontalParallaxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFHorizontalParallaxView.h; sourceTree = "<group>"; };
-		75A160C116D607B100840755 /* YFHorizontalParallaxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFHorizontalParallaxView.m; sourceTree = "<group>"; };
 		75A160C416D6083500840755 /* pic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic1.png; sourceTree = "<group>"; };
 		75A160C516D6083500840755 /* pic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic2.png; sourceTree = "<group>"; };
 		75A160C616D6083500840755 /* pic3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic3.png; sourceTree = "<group>"; };
+		75A160CA16D6211100840755 /* YFHorizontalParallaxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YFHorizontalParallaxView.h; path = ../../YFHorizontalParallaxView.h; sourceTree = "<group>"; };
+		75A160CB16D6211100840755 /* YFHorizontalParallaxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YFHorizontalParallaxView.m; path = ../../YFHorizontalParallaxView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +97,9 @@
 				75A160B516D606FF00840755 /* ViewController.h */,
 				75A160B616D606FF00840755 /* ViewController.m */,
 				75A160B816D606FF00840755 /* ViewController.xib */,
+				75A160CA16D6211100840755 /* YFHorizontalParallaxView.h */,
+				75A160CB16D6211100840755 /* YFHorizontalParallaxView.m */,
 				75A160C316D6083500840755 /* Images */,
-				75A160C016D607B100840755 /* YFHorizontalParallaxView.h */,
-				75A160C116D607B100840755 /* YFHorizontalParallaxView.m */,
 				75A160A416D606FE00840755 /* Supporting Files */,
 			);
 			path = YFHorizontalParallaxView;
@@ -201,7 +201,7 @@
 				75A160AA16D606FE00840755 /* main.m in Sources */,
 				75A160AE16D606FE00840755 /* AppDelegate.m in Sources */,
 				75A160B716D606FF00840755 /* ViewController.m in Sources */,
-				75A160C216D607B100840755 /* YFHorizontalParallaxView.m in Sources */,
+				75A160CC16D6211100840755 /* YFHorizontalParallaxView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +324,7 @@
 				75A160BF16D606FF00840755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
